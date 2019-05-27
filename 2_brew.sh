@@ -17,6 +17,7 @@ brew install bash
 brew install bash-completion2
 sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
 chsh -s /usr/local/bin/bash
+brew install composer
 
 brew cask install alfred
 brew cask install brave-browser
