@@ -1,5 +1,3 @@
-" Last Modified: 2019-05-26
-
 call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/nerdtree'
