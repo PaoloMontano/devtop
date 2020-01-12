@@ -6,15 +6,9 @@ Plug 'flazz/vim-colorschemes'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mhinz/vim-startify'
 Plug 'tpope/vim-surround'
-Plug 'StanAngeloff/php.vim'
-Plug 'phpactor/phpactor' ,  {'do': 'composer install', 'for': 'php'}
-Plug 'ncm2/ncm2'
 Plug 'roxma/nvim-yarp'
-Plug 'phpactor/ncm2-phpactor'
 
 call plug#end()
-
-autocmd BufEnter * call ncm2#enable_for_buffer()
 
 set autoindent								" copy indent to new line
 set autoread								" detect changes made on file from external editor
@@ -58,3 +52,4 @@ nnoremap <C-l><C-l> :set relativenumber!<CR>
 let NERDTreeShowHidden=1
 " sidebar toggle a la sublime
 map <silent> <C-k><C-b> :NERDTreeToggle<CR>
+
